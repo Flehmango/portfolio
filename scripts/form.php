@@ -44,7 +44,8 @@ if ($_POST) {
             $success_msg = "Message sent.";
         else
         {
-            $error_msg = 'Failed to send! '. $mail->ErrorInfo;
+            $error_msg = 'Failed to send! ';
+            echo $mail->ErrorInfo;
         }
     }
 }
