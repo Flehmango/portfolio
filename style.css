@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+  background-color:rgba(0,0,0,.2);
+  color: white;
+  text-align: center;
+}
+
+.view,body,html {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.webp');
+  height: 100vh;
+  height:100%;
+  padding-top: 28px;
+  overflow-x: hidden;
+}
+
+.navbar, .page-footer{
+  background-color:rgba(0,0,0,.2);
+}
+
+.top-nav-collapse {
+    background-color:rgba(189, 178, 166,1);
+}
+
+@media (max-width: 576px) {
+  .top-nav-collapse, .navbar {
+    background-color:rgba(189, 178, 166,1);
+  }
+}
+
+.navbar, .row {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px #5f5f5f;
+}
+
+.row {
+  background-color:rgba(189, 178, 166,.2);
+}
+
+.page-footer {
+  min-height: 10px;
+}
+
+form{
+  width:320px;
+  padding:20px;
+}
+form label {
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold;
+  font-size:12px;
+  color:#555555;
+}
+form textarea,form input{
+  padding:5px;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  width:100%;
+  box-sizing: border-box;
+}
+form input[type=submit] {
+  cursor:pointer;
+  margin-bottom:0px;
+}
+
+.alert {
+ margin-bottom: 0;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
