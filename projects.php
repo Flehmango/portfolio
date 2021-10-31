@@ -88,7 +88,7 @@
                     <p class="mb-1"><?php echo $lang['desc4']?></p>
                 </a>
 
-                <a href="https://drive.google.com/file/d/1ISCkUIam5SvwrY3CpGIvzjcaPEUvR1JQ/view?usp=sharing" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://drive.google.com/file/d/1fOWGS-qs0USpoyNdkUOZywgCSfjSCO8v/view?usp=sharing" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1"><?php echo $lang['title2']?></h5>
                         <small class="text-muted">2015</small>
